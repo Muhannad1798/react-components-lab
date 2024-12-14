@@ -1,6 +1,3 @@
-// src/App.jsx
-import WeatherForecasts from './components/WeatherForecast'
-
 const weatherForecasts = [
   {
     day: 'Mon',
@@ -39,15 +36,4 @@ const weatherForecasts = [
   }
 ]
 
-const App = () => {
-  return (
-    <>
-      <section>
-        <h1>Local Weather</h1>
-        <WeatherForecasts weatherForecasts={weatherForecasts} />
-      </section>
-    </>
-  )
-}
-
-export default App
+export default weatherForecasts
